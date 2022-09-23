@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffebcd;
+}
+
+.logobox {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mintbox {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mintbutton {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    background-color: #ffebcd;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    transition: all 125ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.mintbutton:hover {
+    background-color: #E3B672;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 15px;
+}
+
+.socialsbox {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider{
+    width: 25px;
+    height: auto;
+    display: inline-block;
+}
+
+hr {
+    margin-top: 25px;
+    border-top: solid 1px #AB9D89;
+    border-bottom: solid 1px #AB9D89;
+    width: 65%;
+}
+
+/* For home2 */
+
+h2 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-decoration: line-through;
+}
